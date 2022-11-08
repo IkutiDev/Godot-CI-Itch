@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfn0sb0x6u4o1"]
+
+[ext_resource type="Script" path="res://CustomResourcesTest.gd" id="1_5dd1i"]
+[ext_resource type="Resource" uid="uid://b33jati4kqbf5" path="res://Dude.tres" id="2_mtafh"]
+
+[node name="Node2d" type="Node2D"]
+
+[node name="Node2d" type="Node2D" parent="."]
+script = ExtResource("1_5dd1i")
+custom_resource = ExtResource("2_mtafh")
